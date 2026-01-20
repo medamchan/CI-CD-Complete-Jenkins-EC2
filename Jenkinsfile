@@ -10,7 +10,7 @@ node {
         echo 'Cloning the Repository'
         git(
             branch: 'main',
-            URL: 'https://github.com/medamchan/CI-CD-Complete-Jenkins-EC2',
+            url: 'https://github.com/medamchan/CI-CD-Complete-Jenkins-EC2.git',
 
         )
     }
